@@ -1,0 +1,97 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# FastAPI / Uvicorn / Logs
+# ===============================
+*.log
+logs/
+uvicorn.log
+
+# Auto reload temporary files
+reload.*
+
+# ===============================
+# Databases
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+instance/
+instance/*.db
+
+# Alembic migration artifacts
+alembic.ini~
+alembic/versions/*.pyc
+alembic/versions/*_tmp.py
+
+# ===============================
+# Environment Variables / Secrets
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Cache & Temp
+# ===============================
+*.cache
+.cache/
+*.tmp
+*.temp
+tmp/
+temp/
+__pypackages__/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ===============================
+# VSCode / PyCharm / IDEs
+# ===============================
+.vscode/
+.idea/
+*.iml
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+.docker/
+*.tar
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
