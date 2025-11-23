@@ -20,5 +20,8 @@ COPY . .
 # Expose port
 EXPOSE 8000
 
-# Start command - use shell form to expand $PORT
-CMD ["/bin/sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+# Make start script executable
+RUN chmod +x start.sh
+
+# Start command
+CMD ["./start.sh"]
