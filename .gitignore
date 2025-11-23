@@ -54,6 +54,7 @@ alembic/versions/*_tmp.py
 .env.*
 !.env.example
 
+
 # ===============================
 # Cache & Temp
 # ===============================
